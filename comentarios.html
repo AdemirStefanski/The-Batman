@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./midias/logo.jpg" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato2.html">
+                    <li>Contact</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Photos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comments</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="form0">
+        <form class="form1" action="./comentarios.html">
+            <div class="form2">
+                <div>
+                    <label for="text">Name</label>
+                    <input type="text" style="display: block; background-color: #6f6f6f;" id="name" placeholder="inser your name"/>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" style="display: block; background-color: #6f6f6f;" name="email" placeholder="inser your e-mail"/>
+                </div> 
+                            
+                <div class="form3">
+                <div><p id="gender2">Gender</p></div>
+                    <div class="form4">
+                        <select style="display: block; background-color: #6f6f6f;" name="gender" id="gender3">
+                            <option disabled selected value>select an option</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="agender">Agender</option>
+                            <option value="bigender">Bigender</option>
+                            <option value="transgender">Transgender</option>
+                            <option value="genderfluid">Gender Fluid</option>
+                            <option value="gender-queer">Gender Queer</option>
+                            <option value="gender-variant">Gender Variant</option>
+                            <option value="mx">Mx.</option>
+                            <option value="non-binary">Non-Binary</option>
+                            <option value="passing">Passing</option>
+                            <option value="third-gender">Third Gender</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <!-- <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="male" id="radio"> -->
+                        <!-- <label for="radio">Male</label>
+                        
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="female" id="radio">
+                        <label for="radio">Female</label>
+
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="agender" id="radio">
+                        <label for="radio">Agender</label> -->
+                    </div>
+
+                    <!-- <div>
+                        
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="bigender" id="radio">
+                        <label for="radio">Bigender</label>
+
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="transgender" id="radio">
+                        <label for="radio">Transgender</label>
+
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="gender-fluid" id="radio">
+                        <label for="radio">Gender Fluid</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="gender-queer" id="radio">
+                        <label for="radio">Genderqueer</label>
+
+                        <input type="radio" style="display: name="Gender" value="gender-variant" id="radio">
+                        <label for="radio">Gender Variant</label>
+
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="mx" id="radio">
+                        <label for="radio">Mx.</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="non-binary" id="radio">
+                        <label for="radio">Non-Binary</label>
+                        
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="passing" id="radio">
+                        <label for="radio">Passing</label>
+                        
+                        <input type="radio" style="display: background-color: #6f6f6f;" name="Gender" value="third-gender" id="radio">
+                        <label for="radio">Third Gender</label>
+                    </div>     -->
+                </div>
+
+                <div>
+                    <label for="birthdate">Birthdate</label>
+                    <input style="display: block; background-color: #6f6f6f;" id="birthdate" type="date" name="date">
+                </div>
+
+                <div>
+                    <p id="state2">State</p>
+                    <select style="display: block; background-color: #6f6f6f;" name="state" id="state">
+                        <option disabled selected value>select a State</option>
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraibá</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="se">Sergipe</option>
+                        <option value="to">Tocantins</option>
+                        <option value="df">Distrito Federal</option>
+                </select>
+                </div>
+
+                <div>
+                    <label for="text">City</label>
+                    <input type="text" style="display: block; background-color: #6f6f6f;" id="name"/>
+                </div>
+
+                <div>
+                    <p>Comment</p>
+                        <textarea name="comment" id="comment" cols="30" rows="10" style="background-color: #6f6f6f;" id="name"> </textarea>
+            
+                
+                </div>
+
+                <div class="submitbutton">
+                    <div>
+                        <button class="button2">Submit</button>
+                    </div>
+                </div>
+
+            </div>
+            
+        </form>
+    </div>
+
+</body>
+</html>
